@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+     <head>
+	         <title>Prego | Galway</title>
+			 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">			 
+			 <link rel="stylesheet" type="text/css" href="about.css">
+			 <link rel="shortcut icon" type="image/jpg" href="Images/Favicon.jpg" />
+			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 </head>
+
+	<body style="background-color: #EFECEC;"> 
+         
+		 <div class="logo">
+			<img src="Images/logo.gif" height="80px" width="100px"/>
+		</div>
+		 
+		 
+		<div class="topnav">
+			<a href="index.html">Home</a>
+			<a href="arrivals.html">New Arrivals</a>
+			<a href="shoes.html">Shoes</a>
+			<a href="accessories.html">Accessories</a>
+			<a class="active" href="about.html">About Us</a>
+			<a href="contact.html">Contact Us</a>
+		</div> 
+		
+		
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="Images/outside.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="Images/inside.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="Images/inside2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="Images/inside3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="Images/inside4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="Images/inside5.jpg" style="width:100%">
+  </div>
+  
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="Images/outside.jpg" style="width:100%" onclick="currentSlide(1)" >
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="Images/inside.jpg" style="width:100%" onclick="currentSlide(2)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Images/inside2.jpg" style="width:100%" onclick="currentSlide(3)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Images/inside3.jpg" style="width:100%" onclick="currentSlide(4)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Images/inside4.jpg" style="width:100%" onclick="currentSlide(5)" >
+    </div> 
+	    <div class="column">
+      <img class="demo cursor" src="Images/inside5.jpg" style="width:100%" onclick="currentSlide(6)" >
+    </div> 
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-instagram"></a>
+						</div> 
+						<div class="container">
+						
+						 </div> 
+				 &nbsp;
+				 <h2>About Us</h2>	
+				 &nbsp;
+				 <img src="Images/Logo1.gif" class="img-rounded" alt="Logo" height="400px" width="500px">
+				 &nbsp;
+
+				 <div class="text"><p>Prego Shoe Boutique opened it's doors on the <b>October 31st 1997.</b>
+				 <br>It is located in High Street, Galway. Providing top 
+				 quality women's shoes, boots and handbags at affordable prices.
+				 <br>The proud owner of Prego, Lucy Simpson, moved from Offaly to Galway to open
+				 her own shoe boutique and has been successful ever since. With its wide range of footwear from exclusive Italian brands to handbangs from Spain, 
+				 Holland and Ireland.
+				 
+				 <h2>Shoe Repairs</h2>
+				<br> <p>For any reason you may need to renovate an old shoe and make it come back to life
+				Edmond, from Edmond's Shoe repair  Prego.<br>Prego provides quality products as well as top quality customer service.<br> </p>
+				 </div>
+				
+				<button type="button"><a href="http://edmondsshoerepairs.com/"><b>Edmonds Shoe Repairs</b></a></button>
+					 
+					
+					
+					
+<h2 class="text"> Our brands we carry</h2>
+
+<div class="brands">
+  <div class="columns">
+    <img src="Images/Brands/MacroMoreo.jpg" alt="Macro Moreo" style="width:100%">
+  </div>
+  <div class="columns">
+    <img src="Images/Brands/Mamzelle.jpg" alt="Mamzelle" style="width:100%">
+  </div>
+  <div class="columns">
+    <img src="Images/Brands/repo.jpg" alt="San Repo" style="width:100%">
+  </div>
+    <div class="columns">
+    <img src="Images/Brands/Marian.jpg" alt="Marian" style="width:100%">
+  </div>
+    <div class="columns">
+    <img src="Images/Brands/Oxitaly.png" alt="Oxitaly" style="width:100%">
+  </div>
+</div>
+	
+		
+	<footer>
+  <b><p>Prego</p>
+  <p>4/5 High Street</p>
+  <p>Galway</p>
+  <p>(091) 567 163</p></b>
+  <p>&copy;This is a student website in progress</p>
+</footer>
+
+	 </body>
+
+</html>

@@ -1,0 +1,107 @@
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.img { 
+	width: 40px;
+	height: 40px;
+}
+
+.logo {
+	float: float;
+	margin: 0px 565px; 
+}  
+
+.topnav {
+	background-color: #57000A;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	color: #EFECEC;
+	text-align: center;
+	padding: 20px 24px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #C9858D;
+	color:white;
+}
+
+.topnav a.active {
+	background-color: #C9858D;
+	color:white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper { 
+	margin: 50px 100px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 5px 415px;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #C9858D;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #C9858D;
+  color: white;
+}
+footer { 
+  display: block;
+  background-color: #A33643;
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: white;	
+}
