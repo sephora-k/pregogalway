@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+     <head>
+	         <title>Shopping Cart</title>
+			 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">			 
+			 <link rel="stylesheet" type="text/css" href="cart.css">
+			 <link rel="stylesheet" type="text/css" href="css/style.css">
+			 <link rel="shortcut icon" type="image/jpg" href="Images/Favicon.jpg" />
+			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+			<script type="text/javascript" src="js/jquery.shop.js"></script>
+	 </head>
+
+	<body style="background-color: #EFECEC;"> 
+         
+		 <div class="logo">
+			<img src="Images/logo.gif" height="80px" width="100px"/>
+		</div>
+		 
+		 
+		<div class="topnav">
+			<a href="index.html">Home</a>
+			<a href="arrivals.html">New Arrivals</a>
+			<a href="shoes.html">Shoes</a>
+			<a href="accessories.html">Accessories</a>
+			<a href="about.html">About Us</a>
+			<a href="contact.html">Contact Us</a>
+			<a href="shoppingcart/cart.html">Cart</a>
+		</div> 
+		
+<div class="wrapper">		
+		
+<div id="site">
+
+	<div id="content">
+		<h1>Your Shopping Cart</h1>
+		<form id="shopping-cart" action="cart.html" method="get">
+			<table class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col" colspan="2">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+			<p id="sub-total">
+				<strong>Sub Total</strong>: <span id="stotal"></span>
+			</p>
+			<ul id="shopping-cart-actions">
+				<li>
+					<input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
+				</li>
+				<li>
+					<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+				</li>
+				<li>
+					<a href="index.html" class="btn">Continue Shopping</a>
+				</li>
+				<li>
+					<a href="checkout.html" class="btn">Go To Checkout</a>
+				</li>
+			</ul>
+		</form>
+	</div>
+	
+	
+
+</div>
+
+
+</div>
+	
+
+<div class="return">
+<h4>Returns Policy</h4>
+<p><i>30 days are allowed to return any item after arrival. This is in the accordance with the consumer rights. You may return on site in our shop or post
+back to return address which is : 4/5 High Street, Galway. You will refunded the money within the next 3-5 working days.</i></p>
+</div>
+
+<footer>
+  <b><p>Prego</p>
+  <p>4/5 High Street</p>
+  <p>Galway</p>
+  <p>(091) 567 163</p></b>
+  <p>&copy; This is a student website.</p>
+<a href="https://www.facebook.com/pregoshoeboutique/" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/pregoshoes/?hl=en" class="fa fa-instagram"></a>
+
+</footer>
+
+		</body>
